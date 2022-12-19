@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top-color {
+ background-color: #1d6a7e;
+}
+
+.top-nav {
+  padding: 2rem 0;
+}
+
+.nav__list {
+  width: 100%;
+  /* border: 2px solid red; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sign-btn {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.sign-btn:hover {
+  /* opacity: 0.5;
+  font-size: large;
+} */
+  font-size: 20px;
+  color: rgb(66, 59, 59);
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #fbff00, 0 0 60px #fbff00, 0 0 70px #fbff00;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #00ffcc, 0 0 40px #17cce0,
+      0 0 50px #24d7aa, 0 0 60px #4dffac, 0 0 70px #3ac015, 0 0 80px #3abaff;
+  }
+}
+
+.header_top {
+  background: #23424a;
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.container {
+  width: 82%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.txt_container {
+  color: #fff;
+  width: 57%;
+  max-width: 600px;
+  /* border: 2px solid crimson; */
+}
+
+.img_file {
+  align-self: flex-start;
+  /* border: 2px solid crimson; */
+  width: 38%;
+}
+
+.title_1 {
+  font-size: 40px;
+  margin-top: 0;
+  line-height: 2.8rem;
+}
+
+.text_1 {
+  font-weight: 300;
+  word-spacing: 0.2rem;
+  line-height: 1.5rem;
+}
+
+.btn-learn {
+  margin-top: 3%;
+  background: #38cfd9;
+  color: #072a2d;
+  border: 1px solid #136c72;
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
+  mix-blend-mode: normal;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.btn-learn:hover,
+.btn-learn:focus {
+  opacity: 0.75;
+  background: #ffffff;
+}
+
+.col {
+  text-align: center;
+  word-spacing: 0.15rem;
+  line-height: 1.5rem;
+  margin: 3rem 0;
+}
+
+.col-1 {
+  width: 60%;
+}
+
+.col-1 h2 {
+  color: #136c72;
+  font-weight: 800;
+  font-size: 1.8em;
+  line-height: 2.2rem;
+}
+
+.col-1 p {
+  color: #23424a;
+  font-size: 1.2em;
+  line-height: 1.6rem;
+}
+
+.left {
+  margin-top: 3%;
+}
+
+.col-2 {
+  width: 35%;
+  background-color: #136c72;
+  color: white;
+  padding: 0% 3%;
+}
+
+.col-2 h2,
+p {
+  margin-top: 0;
+}
